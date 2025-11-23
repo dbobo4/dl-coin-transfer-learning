@@ -1,0 +1,44 @@
+# --- Python általános ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+# --- Jupyter Notebook cache ---
+.ipynb_checkpoints/
+
+# --- Virtuális környezetek ---
+venv/
+.env/
+.venv/
+
+# --- PyTorch nagy fájlok ---
+*.pth
+*.pt
+*.pkl
+*.pickle
+*.npy
+*.npz
+
+# --- Log fájlok ---
+*.log
+
+# --- IDE / Editor ---
+.vscode/
+.idea/
+*.swp
+
+# --- OS szemét ---
+.DS_Store
+Thumbs.db
+
+# --- Modell mentések külön mappában (ha van) ---
+models/
+checkpoints/
+
+# --- Saját modellfájlod ---
+best_vgg16_coins.pth
+
+# --- Ha vannak cache-ek ---
+cache/
