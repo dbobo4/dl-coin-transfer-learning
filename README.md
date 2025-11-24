@@ -17,7 +17,7 @@ Ez a projekt saját fotózott magyar forint érmék (5, 10, 20, 50, 100, 200 Ft)
 
 ## Adatkészlet bemutatása
 
-A nyers képek a `data_dir/` mappában találhatók (a korábbi `images/` helyett). A fájlnevek egységes formátumot követnek, például: `5_forint_1.jpg`, `10_forint_23.jpg`, stb. A címke a fájlnévből kerül kiparszolásra a következőképpen: `label_name = base.split('_')[0]`, azaz az első aláhúzás előtti rész adja a címletet.
+A nyers képek a `data_dir/` mappában találhatók. A fájlnevek egységes formátumot követnek, például: `5_forint_1.jpg`, `10_forint_23.jpg`, stb. A címke a fájlnévből kerül kiparszolásra a következőképpen: `label_name = base.split('_')[0]`, azaz az első aláhúzás előtti rész adja a címletet.
 
 A modell 6 érmeosztályt különböztet meg:
 
@@ -125,7 +125,7 @@ A notebook a tanítás során elmenti a train és val loss/accuracy értékeket,
      ```
 
 4. **Adatok előkészítése**
-   - Hozd létre az `images/` mappát a projekt gyökerében, és helyezd el benne a képeket a megadott névformátummal (pl. `5_forint_1.jpg`, `10_forint_23.jpg`, stb.).
+   - Hozd létre az `data_dir/` mappát a projekt gyökerében, és helyezd el benne a képeket a megadott névformátummal (pl. `5_forint_1.jpg`, `10_forint_23.jpg`, stb.).
 
 5. **Notebook futtatása**
    - Indítsd el a Jupyter-t:
